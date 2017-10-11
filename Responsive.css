@@ -1,0 +1,85 @@
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float:left;
+    padding: 1px;
+    }
+
+    @media only screen and (max-width: 400px){
+        .responsive.responsive2 {
+
+        }
+        div.img2{
+          height: 50px;
+          border-radius: 5px;
+        }
+        div.img {
+          height: 40px;
+          border-radius: 5px;
+        }
+        #mmr{padding-top: 40px;}
+        #mainmenuins{ width: 15%;}
+        #mainmenu{width: 70%;}
+    }
+
+
+
+    @media only screen and (max-width: 700px){
+        .responsive {
+            width: 24.99999%;
+            }
+        .responsive2 {
+          width: 99.99999%;
+        }
+        div.img2{
+          height: 70px;
+        }
+        div.img {
+          height: 40px;
+        }
+    }
+
+
+    @media only screen and (min-width: 1000px){
+      #mainmenu{width: 30%}
+      #mainmenuins{width: 35%}
+      #mmr{padding-top: 200px;}
+      div.img2{height: 100px;}
+    }
+
+    @media only screen and (min-width: 1400px){
+      #mainmenu{width: 30%}
+      #mainmenuins{width: 35%}
+      #mmr{padding-top: 200px;}
+      div.img2{height: 130px;}
+    }
+
+    @media only screen and (min-width: 2000px){
+      #mainmenu{width: 20%}
+      #mainmenuins{width: 40%}
+      #mmr{padding-top: 350px;}
+      div.img2{height: 120px;}
+      div.img{height: 60px;}
+    }
+    @media only screen and (min-width: 3000px){
+      #mainmenu{width: 15%}
+      #mainmenuins{width: 42.5%}
+    }
